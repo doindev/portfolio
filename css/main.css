@@ -1,0 +1,88 @@
+
+* {
+	color: #2d3c49;
+}
+
+.container {
+	margin: 20px;
+}
+.container-fixed {
+    margin: 0 auto;
+    max-width: 970px;
+    padding: 10px;
+}
+
+.logo {
+	width: 100px;
+	margin-top: 10px;
+}
+
+h1 {
+	font-size: 3.5em;
+	margin: 0 auto;
+}
+
+h2 {
+	color: #7d97ad;
+	margin-top: 10px;
+}
+.hr {
+	height: 4px;
+	background-color: #7d97ad;
+	margin: 10px 0 !important;
+}
+.jumbotron {
+	background: #fff url(../img/jcode.jpg) no-repeat center center;
+	background-size: cover;
+    margin: 0 !important;
+    border-radius: 0 !important;
+    height: 400px;
+}
+
+.project {
+	text-align: center;
+	width: 310px;
+	margin: 0 auto 20px auto;
+}
+
+.project > a > img {
+	width: 310px;
+	height: 180px;
+}
+
+.project-title {
+	color: #2d3c49;
+}
+
+@media screen and (max-width: 1169px ) {
+	.jumbotron{
+		height: 300px;
+	}
+}
+
+@media screen and (max-width: 767px ) {
+	.jumbotron{
+		height: 200px;
+	}
+	h1 {
+		padding-left: 20px;
+	}
+	h4 {
+		padding-left: 20px;
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
