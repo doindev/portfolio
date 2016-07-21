@@ -13,7 +13,7 @@
 }
 
 .logo {
-	width: 100px;
+	max-width: 100px;
 	margin-top: 10px;
 }
 
@@ -32,43 +32,57 @@ h2 {
 	margin: 10px 0 !important;
 }
 .jumbotron {
-	background: #fff url(../img/jcode.jpg) no-repeat center center;
-	background-size: cover;
     margin: 0 !important;
     border-radius: 0 !important;
     height: 400px;
+    overflow: hidden;
+    padding: 0;
 }
 
 .project {
 	text-align: center;
-	width: 310px;
+	max-width: 310px;
 	margin: 0 auto 20px auto;
 }
 
-.project > a > img {
-	width: 310px;
-	height: 180px;
+.project-image{
+	width: 100%;
 }
 
-.project-title {
+.project-title{
 	color: #2d3c49;
+	font-size: 1.8em;
+}
+
+.row{
+	margin-left: 0;
+	margin-right: 0;
 }
 
 @media screen and (max-width: 1169px ) {
 	.jumbotron{
 		height: 300px;
 	}
+	h1 {
+		font-size: 2.5em;
+	}
+	h4 {
+		
+	}
 }
 
 @media screen and (max-width: 767px ) {
 	.jumbotron{
-		height: 200px;
+		height: auto;
+		max-height:200px;
 	}
 	h1 {
 		padding-left: 20px;
+		font-size: 1.5em;
 	}
 	h4 {
 		padding-left: 20px;
+		font-size: 1em;
 	}
 }
 
